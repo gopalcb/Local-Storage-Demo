@@ -1,0 +1,19 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script src="~/js/Demo.js"></script>
+
+<div class="jumbotron">
+    <h1>JavaScript Local Storage demo</h1>
+    <p><a href="javascript:void()" class="btn btn-primary get-response">Get response data from server & set it to local storage</a></p>
+    <p><a href="javascript:void()" class="btn btn-danger read-data">Read local storage data and send to server side</a></p>
+</div>
+
+<script>
+    $(document).ready(function () {
+        debugger;
+        Demo.init();
+    });
+</script>
